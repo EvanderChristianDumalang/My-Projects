@@ -37,7 +37,9 @@ class _EventState extends State<Event> {
           ),
           IconButton(
             icon: Image.asset('assets/images/ButtonMedia.png'),
-            onPressed: () {},
+            onPressed: () {
+              _showMap(context);
+            },
           ),
         ],
       ),
@@ -50,7 +52,6 @@ class _EventState extends State<Event> {
               width: 450,
               decoration: BoxDecoration(
                 color: Colors.blueAccent,
-              
               ),
               child: ListTile(
                 title: Text(
@@ -138,4 +139,13 @@ class _EventState extends State<Event> {
       )),
     );
   }
+}
+
+void _showMap (BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return Container();
+    },
+  );
 }
