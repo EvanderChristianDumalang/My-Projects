@@ -1,13 +1,3 @@
-class GuestData{
-  String name = '';
-  String birthdate = '';
-  int id = 0;
-
-  GuestData(this.birthdate, this.id, this.name);
-
-  GuestData.fromJson(Map<dynamic, dynamic> json ){
-    name = json['name'];
-    birthdate = json['birthdate'];
-    id = json['id'];
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd08584d70d2f7d452cbad59c9157d7badd07db470ce4832b4f05c2b72f46e29
+size 264

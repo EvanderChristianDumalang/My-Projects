@@ -1,23 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
-import 'package:screentest1/home.dart';
-
-void main() async {
-  runApp(GetMaterialApp(home: Home()));
-  await GetStorage.init();
-}
-
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'ScreenTest',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Home(),
-    );
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2324757bd934aa946161d88cafcce49146643b50af79a8ea53b9e99eb6a594ef
+size 541

@@ -1,7 +1,3 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.screentest2">
-    <!-- Flutter needs it to communicate with the running application
-         to allow setting breakpoints, to provide hot reload, etc.
-    -->
-    <uses-permission android:name="android.permission.INTERNET"/>
-</manifest>
+version https://git-lfs.github.com/spec/v1
+oid sha256:044165bdd6475e479a372124dd0b118ca905ce6bc21d826ab7d83ad13d317155
+size 331
